@@ -16,4 +16,9 @@ export const reservationsFiltersSchema = z.object({
   status: z.enum([Status.CANCELED, Status.CONFIRMED])
 })
 
+export const reservationsFiltersPerHourSchema = z.object({
+  period: z.enum(["daily", "weekly", "monthly"]).default("daily"),
+})
+
 export type FiltersValues = z.infer<typeof reservationsFiltersSchema> 
+export type FilterPerHourValues = z.infer<typeof reservationsFiltersPerHourSchema> 

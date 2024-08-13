@@ -32,4 +32,10 @@ export type CanceledReservationsDayRateAPIResponse = {
     reservations: number
   }
 }
-/* ------------------------------------------------ */
+
+export type ReservationsPerHourAPIResponse = {
+  amount: {
+		hour: number
+		reservationsAmount: number
+	}[]
+}
