@@ -94,7 +94,7 @@ const FilterRservationsForm = ({ token }: { token: string | undefined }) => {
         <CardHeader>
           <div className="flex items-center justify-between">
             <CardTitle>All reservations</CardTitle>
-            <HandPlatter className="size-5 text-muted-foreground" />
+            <HandPlatter className="size-5 text-emerald-500" />
           </div>
           <CardDescription>Assign a type to know about reservations.</CardDescription>
         </CardHeader>

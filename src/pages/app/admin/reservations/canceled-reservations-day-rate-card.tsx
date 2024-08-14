@@ -14,7 +14,7 @@ const CanceledReservationsDayRateCard = ({ token }: { token: string | undefined 
       <CardHeader>
           <div className="flex items-center justify-between">
             <CardTitle>Rate</CardTitle>
-            <CalendarArrowDownIcon className="size-5 text-muted-foreground" />
+            <CalendarArrowDownIcon className="size-5 text-emerald-500" />
           </div>
           <CardDescription>Here's the rate of all canceled reservations actually.</CardDescription>
         </CardHeader>

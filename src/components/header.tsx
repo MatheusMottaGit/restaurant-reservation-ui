@@ -7,7 +7,7 @@ interface HeaderProps {
 
 const Header = ({ children: pagesLinks }: HeaderProps) => {
   return (
-    <header className="bg-card flex items-center justify-between gap-4 border-b border-input px-6 h-12 shadow">
+    <header className="bg-card/50 z-50 top-0 flex backdrop-blur sticky items-center justify-between gap-4 border-b border-input px-6 h-12 shadow">
       <div className="flex items-center divide-x-2 divide-solid divide-input">
         <Soup className="size-10 pr-4" />
 

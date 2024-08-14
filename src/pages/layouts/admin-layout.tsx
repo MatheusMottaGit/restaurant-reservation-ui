@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom"
 
 const AdminLayout = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="relative min-h-screen flex flex-col">
       <Header>
         <NavLink to="/reservations">
           <HandPlatter className="size-5" /> Reservations

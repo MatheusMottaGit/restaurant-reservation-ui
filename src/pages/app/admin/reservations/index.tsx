@@ -15,15 +15,15 @@ const ReservationsDashboardPage = () => {
 
       <div className="hidden items-start justify-center gap-6 rounded-lg md:grid lg:grid-cols-2 xl:grid-cols-">
         <div className="col-span-2 grid items-start gap-6 lg:col-span-1">
-          <FilterRservationsForm token={token} />
+          <ReservationsAmountPerHourChart token={token}/>
 
-          <CanceledReservationsDayRateCard token={token} />
+          <FilterRservationsForm token={token} />
         </div>
 
         <div className="col-span-2 grid items-start gap-6 lg:col-span-1">
           <WeeklyRservationsCountChart token={token} />
 
-          <ReservationsAmountPerHourChart token={token}/>
+          <CanceledReservationsDayRateCard token={token} />
         </div>
       </div>
     </>

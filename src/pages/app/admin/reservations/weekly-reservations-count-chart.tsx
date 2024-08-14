@@ -15,7 +15,7 @@ const WeeklyReservationsCountChart = ({ token }: { token: string | undefined }) 
       <CardHeader>
         <div className="flex items-center justify-between">
           <CardTitle>Per Week</CardTitle>
-          <Calendar className="size-5 text-muted-foreground" />
+          <Calendar className="size-5 text-emerald-500" />
         </div>
         <CardDescription>Reservations amount for each weekday.</CardDescription>
       </CardHeader>
